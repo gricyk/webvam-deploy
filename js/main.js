@@ -9,16 +9,28 @@
   if (toggle && nav) {
     toggle.addEventListener('click', function() {
       const open = nav.classList.toggle('open');
-      toggle.setAttribute('aria-expanded', open);
+      toggle.setAttribute('aria-expanded', String(open));
       document.body.style.overflow = open ? 'hidden' : '';
+      // Анимация гамбургера
+      toggle.classList.toggle('is-open', open);
     });
     // Закрыть при клике на ссылку
     nav.querySelectorAll('a').forEach(function(link) {
       link.addEventListener('click', function() {
         nav.classList.remove('open');
         toggle.setAttribute('aria-expanded', 'false');
+        toggle.classList.remove('is-open');
         document.body.style.overflow = '';
       });
+    });
+    // Закрыть при клике вне меню
+    document.addEventListener('click', function(e) {
+      if (!nav.contains(e.target) && !toggle.contains(e.target)) {
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.classList.remove('is-open');
+        document.body.style.overflow = '';
+      }
     });
   }
 

@@ -184,19 +184,32 @@ ul { list-style: none; }
 .menu-toggle {
   display: none;
   flex-direction: column;
+  justify-content: center;
   gap: 5px;
   background: none;
   border: none;
   cursor: pointer;
-  padding: 4px;
+  padding: 8px;
   margin-left: auto;
+  z-index: 101;
 }
 .menu-toggle span {
   display: block;
   width: 22px; height: 2px;
   background: var(--text);
   border-radius: 2px;
-  transition: all .2s;
+  transition: all .25s ease;
+  transform-origin: center;
+}
+.menu-toggle.is-open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.menu-toggle.is-open span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.menu-toggle.is-open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 /* ─── Hero ───────────────────────────────────────────────────── */
@@ -469,17 +482,38 @@ ul { list-style: none; }
 @media (max-width: 640px) {
   .main-nav { display: none; }
   .main-nav.open {
-    display: block;
+    display: flex;
+    flex-direction: column;
     position: fixed;
-    inset: var(--header-h) 0 0 0;
+    top: var(--header-h);
+    left: 0; right: 0; bottom: 0;
     background: var(--bg);
-    padding: 24px;
+    padding: 32px 24px;
     z-index: 99;
+    border-top: 1px solid var(--border);
+    animation: slideDown .2s ease;
   }
-  .main-nav.open ul { flex-direction: column; gap: 8px; }
-  .main-nav.open a  { padding: 12px 16px; font-size: 1rem; }
-  .menu-toggle      { display: flex; }
-  .lang-switcher    { margin-left: auto; }
-  .footer-grid      { grid-template-columns: 1fr; }
-  .section          { padding: 56px 0; }
+  .main-nav.open ul {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .main-nav.open a {
+    padding: 14px 16px;
+    font-size: 1.05rem;
+    border-radius: var(--radius);
+    display: block;
+  }
+  .main-nav.open a:hover {
+    background: var(--border);
+    color: var(--text);
+  }
+  .menu-toggle   { display: flex; }
+  .lang-switcher { margin-left: auto; }
+  .footer-grid   { grid-template-columns: 1fr; }
+  .section       { padding: 56px 0; }
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
