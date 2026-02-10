@@ -729,8 +729,6 @@ ul { list-style: none; }
   .site-header:has(.main-nav.open),
   body.menu-open .site-header {
     background: rgba(26, 26, 26, .97);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
     border-bottom-color: rgba(255,255,255,.08);
   }
   .site-header:has(.main-nav.open) .logo-name,
