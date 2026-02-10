@@ -1,0 +1,38 @@
+# WEBVAM Studio
+
+> Web development studio based in Kladno, Czech Republic. We build websites for Czech businesses, expats, and the Russian-speaking and Ukrainian communities in Czechia.
+
+## About
+
+WEBVAM Studio is a web development agency run by Igor Gricyk (IČO: 10681221). We specialize in fast, secure websites for small businesses and entrepreneurs in the Czech Republic. We communicate in Czech, Russian, Ukrainian, and English.
+
+## Services
+
+- Static websites (Hugo): from 15,000 CZK — fast, secure sites with Google PageSpeed 95-100
+- CMS websites (WordPress): from 20,000 CZK — e-commerce, blogs, content management
+- SEO optimization: from 5,000 CZK — Google and Seznam rankings, local SEO
+- Support & maintenance: from 1,500 CZK/month — updates, backups, security
+- Domain & hosting: from 500 CZK/month — .cz domains, SSL, professional email
+
+## Location
+
+Kladno, Czech Republic (serving Prague and all of Czech Republic)
+
+## Contact
+
+- Email: info@webvam.cz
+- Phone: +420 773 212 221
+- Website: https://webvam.cz/
+- GitHub: https://github.com/gricyk
+
+## Languages
+
+This website is available in:
+- Czech (default): https://webvam.cz/
+- Russian: https://webvam.cz/ru/
+- Ukrainian: https://webvam.cz/uk/
+- English: https://webvam.cz/en/
+
+## Portfolio
+
+We have built websites for: B-UHR (watch e-shop), Bedneni.org (nonprofit), Elite Residence (real estate), Hostivice Food (restaurant), PocketWatch Adaptor (collector e-shop), Richard Star (personal portfolio), Spasenie.eu (church website), TruckHelp&Go (trucking services).

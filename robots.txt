@@ -1,4 +1,30 @@
 User-agent: *
 Allow: /
+Disallow: /thanks/
+Disallow: /dekujeme/
+Disallow: /spasibo/
+Disallow: /dyakujemo/
+
+# AI Crawlers — allow indexing for AI discoverability
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Googlebot-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
 
 Sitemap: https://webvam.cz/sitemap.xml
