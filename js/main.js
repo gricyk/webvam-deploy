@@ -71,26 +71,34 @@
   if (form) {
     form.addEventListener('submit', function(e) {
       e.preventDefault();
-      const btn = form.querySelector('[type="submit"]');
-      const original = btn.textContent;
-      btn.textContent = '✓ Odesláno / Отправлено';
+      var btn = form.querySelector('[type="submit"]');
+      var original = btn.textContent;
+      var successText = form.dataset.success || '✓ Sent';
+      var errorText = form.dataset.error || 'Error. Try again.';
       btn.disabled = true;
-      btn.style.background = '#27ae60';
 
-      // Formspree или Netlify Forms интеграция
-      const data = new FormData(form);
-      fetch('https://formspree.io/f/REPLACE_WITH_YOUR_ID', {
+      var data = new FormData(form);
+      fetch('https://formspree.io/f/xeelegek', {
         method: 'POST',
         body: data,
         headers: { 'Accept': 'application/json' }
+      }).then(function(response) {
+        if (response.ok) {
+          btn.textContent = successText;
+          btn.style.background = '#27ae60';
+          form.reset();
+        } else {
+          btn.textContent = errorText;
+          btn.style.background = '#e74c3c';
+        }
       }).catch(function() {
-        // fallback - просто показываем успех
+        btn.textContent = errorText;
+        btn.style.background = '#e74c3c';
       }).finally(function() {
         setTimeout(function() {
           btn.textContent = original;
           btn.disabled = false;
           btn.style.background = '';
-          form.reset();
         }, 4000);
       });
     });
