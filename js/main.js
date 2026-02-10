@@ -11,6 +11,7 @@
       const open = nav.classList.toggle('open');
       toggle.setAttribute('aria-expanded', String(open));
       document.body.style.overflow = open ? 'hidden' : '';
+      document.body.classList.toggle('menu-open', open);
       // Анимация гамбургера
       toggle.classList.toggle('is-open', open);
     });
@@ -21,6 +22,7 @@
         toggle.setAttribute('aria-expanded', 'false');
         toggle.classList.remove('is-open');
         document.body.style.overflow = '';
+        document.body.classList.remove('menu-open');
       });
     });
     // Закрыть при клике вне меню
@@ -30,6 +32,7 @@
         toggle.setAttribute('aria-expanded', 'false');
         toggle.classList.remove('is-open');
         document.body.style.overflow = '';
+        document.body.classList.remove('menu-open');
       }
     });
   }
