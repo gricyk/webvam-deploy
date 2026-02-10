@@ -471,6 +471,237 @@ ul { list-style: none; }
   color: #6b7280;
 }
 
+/* ─── Page Hero (inner pages) ─────────────────────────────────── */
+.page-hero {
+  padding: 60px 0 40px;
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+}
+.page-hero__title {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+.page-hero__subtitle {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  max-width: 640px;
+  line-height: 1.7;
+}
+.page-hero__icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+.page-hero__price {
+  margin-top: 16px;
+  font-size: 1rem;
+  color: var(--text-muted);
+}
+.page-hero__price strong {
+  color: var(--accent-dark);
+  font-size: 1.3rem;
+}
+
+/* ─── Service Detail ─────────────────────────────────────────── */
+.service-detail__content {
+  max-width: 800px;
+}
+.service-detail__content h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 48px 0 16px;
+  color: var(--text);
+}
+.service-detail__content h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 32px 0 12px;
+  color: var(--text);
+}
+.service-detail__content p {
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+.service-detail__content ul,
+.service-detail__content ol {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.service-detail__content ul li {
+  padding: 6px 0 6px 24px;
+  position: relative;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+.service-detail__content ul li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 14px;
+  width: 8px; height: 8px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+.service-detail__content ol {
+  counter-reset: step;
+}
+.service-detail__content ol li {
+  padding: 8px 0 8px 36px;
+  position: relative;
+  color: var(--text-muted);
+  line-height: 1.7;
+  counter-increment: step;
+}
+.service-detail__content ol li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0; top: 8px;
+  width: 24px; height: 24px;
+  background: var(--accent);
+  color: #fff;
+  font-size: .75rem;
+  font-weight: 700;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service-detail__content strong {
+  color: var(--text);
+  font-weight: 600;
+}
+.service-detail__content a {
+  color: var(--accent-dark);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.service-detail__content a:hover {
+  color: var(--accent);
+}
+.service-detail__content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+  font-size: .9rem;
+}
+.service-detail__content th,
+.service-detail__content td {
+  padding: 10px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+.service-detail__content th {
+  font-weight: 600;
+  color: var(--text);
+  background: var(--bg);
+}
+.service-detail__content td {
+  color: var(--text-muted);
+}
+.service-detail__cta {
+  margin-top: 64px;
+  padding: 40px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+.service-detail__cta h2 {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+.service-detail__cta p {
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+/* ─── Service Card Link ──────────────────────────────────────── */
+.service-card--link {
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+}
+.service-card--link:hover {
+  color: var(--text);
+}
+.service-card__more {
+  margin-top: auto;
+  font-size: .85rem;
+  font-weight: 600;
+  color: var(--accent-dark);
+}
+.service-card--link:hover .service-card__more {
+  color: var(--accent);
+}
+
+/* ─── Contact Extra ──────────────────────────────────────────── */
+.contact-extra {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+.contact-extra h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.contact-extra p {
+  font-size: .9rem;
+  color: var(--text-muted);
+}
+.form-note {
+  font-size: .85rem;
+  color: var(--text-muted);
+}
+.form-note a {
+  color: var(--accent-dark);
+}
+
+/* ─── Thanks Page ────────────────────────────────────────────── */
+.thanks-page {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+}
+.thanks-content {
+  text-align: center;
+  max-width: 520px;
+  margin: 0 auto;
+}
+.thanks-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 24px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thanks-content h1 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+.thanks-content p {
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+.thanks-content .btn {
+  margin-top: 24px;
+}
+
+/* ─── Page Content (single.html) ─────────────────────────────── */
+.page-content h1 {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
 /* ─── Responsive ─────────────────────────────────────────────── */
 @media (max-width: 900px) {
   .hero .container { grid-template-columns: 1fr; gap: 40px; }
