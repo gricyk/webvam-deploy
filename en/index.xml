@@ -1,101 +1,98 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Modern websites for your business in Czech Republic on WEBVAM Studio</title><link>https://webvam.cz/en/</link><description>Recent content in Modern websites for your business in Czech Republic on WEBVAM Studio</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://webvam.cz/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Static Website (Hugo)</title><link>https://webvam.cz/en/services/static-websites/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://webvam.cz/en/services/static-websites/</guid><description>&lt;h2 id="fast-secure-website-without-compromises">Fast, secure website without compromises&lt;/h2>
-&lt;p>A static website is a modern solution for businesses that need a fast, secure and stable online presence. Unlike traditional CMS systems, there&amp;rsquo;s no database or admin panel — your website runs without slowdowns or security risks.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Development in Prague for Expats and International Businesses on WEBVAM Studio</title><link>https://webvam.cz/en/</link><description>Recent content in Web Development in Prague for Expats and International Businesses on WEBVAM Studio</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://webvam.cz/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Static Website (Hugo)</title><link>https://webvam.cz/en/services/static-websites/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://webvam.cz/en/services/static-websites/</guid><description>&lt;h2 id="a-fast-professional-website-for-your-business-in-czechia">A fast, professional website for your business in Czechia&lt;/h2>
+&lt;p>Running a business in Czech Republic as an expat or international company? You need a website that loads fast, looks professional, and helps Czech customers find you. A static website delivers all of this — without the overhead of complex CMS systems.&lt;/p>
 &lt;h3 id="what-you-get">What you get&lt;/h3>
 &lt;ul>
-&lt;li>&lt;strong>Lightning-fast speed&lt;/strong> — pages load instantly, Google PageSpeed 95–100/100&lt;/li>
-&lt;li>&lt;strong>Maximum security&lt;/strong> — no database = no CMS hacking attacks&lt;/li>
-&lt;li>&lt;strong>SEO advantage&lt;/strong> — speed is a key ranking factor in search results&lt;/li>
-&lt;li>&lt;strong>Multilingual support&lt;/strong> — multiple languages (CZ, EN, RU, UK and more)&lt;/li>
-&lt;li>&lt;strong>Zero CMS maintenance costs&lt;/strong> — no plugin, theme or core updates needed&lt;/li>
-&lt;li>&lt;strong>Modern design&lt;/strong> — responsive, clean and professional look&lt;/li>
+&lt;li>&lt;strong>Google PageSpeed 95–100/100&lt;/strong> — speed is a ranking factor in Google, and your visitors will notice&lt;/li>
+&lt;li>&lt;strong>Zero security vulnerabilities&lt;/strong> — no database, no CMS, no attack surface for hackers&lt;/li>
+&lt;li>&lt;strong>Bilingual by design&lt;/strong> — Czech and English versions built in, so you reach both local and international clients&lt;/li>
+&lt;li>&lt;strong>SEO-ready from day one&lt;/strong> — proper meta tags, structured data, and fast loading for top Google rankings&lt;/li>
+&lt;li>&lt;strong>Fully responsive&lt;/strong> — looks perfect on mobile, tablet, and desktop&lt;/li>
+&lt;li>&lt;strong>No CMS maintenance costs&lt;/strong> — no plugin updates, no security patches, no downtime&lt;/li>
 &lt;/ul>
-&lt;h3 id="who-is-it-for">Who is it for&lt;/h3>
+&lt;h3 id="who-its-for">Who it&amp;rsquo;s for&lt;/h3>
 &lt;ul>
-&lt;li>Corporate presentations and business cards&lt;/li>
-&lt;li>Portfolios and personal websites&lt;/li>
-&lt;li>Landing pages for campaigns&lt;/li>
-&lt;li>Small and medium business websites&lt;/li>
-&lt;li>Information websites and documentation&lt;/li>
+&lt;li>&lt;strong>Expat entrepreneurs&lt;/strong> — consultants, coaches, freelancers who need a professional online presence&lt;/li>
+&lt;li>&lt;strong>International companies&lt;/strong> — opening a Czech branch and need a local website&lt;/li>
+&lt;li>&lt;strong>Startups&lt;/strong> — landing pages for product launches and investor presentations&lt;/li>
+&lt;li>&lt;strong>Professional services&lt;/strong> — law firms, accounting, real estate, medical practices&lt;/li>
+&lt;li>&lt;strong>Digital nomads&lt;/strong> — portfolio and service pages for your Czech-based business&lt;/li>
 &lt;/ul>
-&lt;h3 id="how-it-works">How it works&lt;/h3>
+&lt;h3 id="how-we-work">How we work&lt;/h3>
 &lt;ol>
-&lt;li>&lt;strong>Consultation&lt;/strong> — we discuss your requirements and goals&lt;/li>
-&lt;li>&lt;strong>Design&lt;/strong> — we create a visual mockup and website structure&lt;/li>
-&lt;li>&lt;strong>Development&lt;/strong> — we build the website on the Hugo platform&lt;/li>
-&lt;li>&lt;strong>Launch&lt;/strong> — we deploy the site with an SSL certificate&lt;/li>
-&lt;li>&lt;strong>Support&lt;/strong> — we provide long-term maintenance and updates&lt;/li>
+&lt;li>&lt;strong>Consultation in English&lt;/strong> — tell us about your business, goals, and target audience&lt;/li>
+&lt;li>&lt;strong>Content strategy&lt;/strong> — we plan the site structure, pages, and keywords for the Czech market&lt;/li>
+&lt;li>&lt;strong>Design and development&lt;/strong> — we build a modern, responsive website on the Hugo platform&lt;/li>
+&lt;li>&lt;strong>SEO setup&lt;/strong> — we optimize for Google Czech Republic and set up Google Business Profile&lt;/li>
+&lt;li>&lt;strong>Launch and handover&lt;/strong> — we deploy to reliable hosting with SSL and walk you through everything&lt;/li>
 &lt;/ol>
-&lt;h3 id="technology">Technology&lt;/h3>
-&lt;p>We use &lt;a href="https://gohugo.io/">Hugo&lt;/a> — one of the fastest static site generators in the world. Hosting on reliable infrastructure with automatic deployment via GitHub.&lt;/p></description></item><item><title>CMS Website (WordPress)</title><link>https://webvam.cz/en/services/cms-websites/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://webvam.cz/en/services/cms-websites/</guid><description>&lt;h2 id="a-website-you-manage-yourself">A website you manage yourself&lt;/h2>
-&lt;p>WordPress is the most popular content management system in the world. If you need a website you can update yourself — change texts, add photos, manage products — WordPress is the right choice.&lt;/p>
-&lt;h3 id="what-you-get">What you get&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>Simple admin panel&lt;/strong> — intuitive interface for content management&lt;/li>
-&lt;li>&lt;strong>Flexibility&lt;/strong> — thousands of extensions and plugins for any functionality&lt;/li>
-&lt;li>&lt;strong>E-commerce&lt;/strong> — WooCommerce for online sales&lt;/li>
-&lt;li>&lt;strong>Blog&lt;/strong> — built-in support for articles and news&lt;/li>
-&lt;li>&lt;strong>Multilingual&lt;/strong> — WPML or Polylang for multiple language versions&lt;/li>
-&lt;li>&lt;strong>SEO tools&lt;/strong> — Yoast SEO or Rank Math for optimisation&lt;/li>
-&lt;/ul>
-&lt;h3 id="who-is-wordpress-for">Who is WordPress for&lt;/h3>
-&lt;ul>
-&lt;li>Companies with regularly updated content&lt;/li>
-&lt;li>Online shops and product catalogues&lt;/li>
-&lt;li>Blogs and news portals&lt;/li>
-&lt;li>Websites with user registration&lt;/li>
-&lt;li>Projects requiring specific features&lt;/li>
-&lt;/ul>
-&lt;h3 id="whats-included">What&amp;rsquo;s included&lt;/h3>
-&lt;ol>
-&lt;li>&lt;strong>Installation and configuration&lt;/strong> of WordPress on hosting&lt;/li>
-&lt;li>&lt;strong>Custom design&lt;/strong> — bespoke theme or customised premium theme&lt;/li>
-&lt;li>&lt;strong>Essential plugins&lt;/strong> — SEO, security, backups, forms&lt;/li>
-&lt;li>&lt;strong>Training&lt;/strong> — we teach you how to manage content&lt;/li>
-&lt;li>&lt;strong>30 days of free support&lt;/strong> after launch&lt;/li>
-&lt;/ol></description></item><item><title>SEO Optimisation</title><link>https://webvam.cz/en/services/seo-optimization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://webvam.cz/en/services/seo-optimization/</guid><description>&lt;h2 id="more-customers-from-google">More customers from Google&lt;/h2>
-&lt;p>SEO optimisation ensures your potential customers find your website in search results. We combine technical optimisation with content strategy for long-term results.&lt;/p>
+&lt;h3 id="why-hugo-instead-of-wordpress">Why Hugo instead of WordPress?&lt;/h3>
+&lt;p>Hugo is a static site generator used by companies worldwide. Unlike WordPress, it doesn&amp;rsquo;t need a database, PHP server, or constant updates. The result is a website that&amp;rsquo;s faster, more secure, and cheaper to maintain. If you don&amp;rsquo;t need daily content changes or an online store, a static site is the smarter choice.&lt;/p></description></item><item><title>CMS Website (WordPress)</title><link>https://webvam.cz/en/services/cms-websites/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://webvam.cz/en/services/cms-websites/</guid><description>&lt;h2 id="manage-your-website-content--no-developer-needed">Manage your website content — no developer needed&lt;/h2>
+&lt;p>Need to update products, publish blog posts, or change prices regularly? WordPress gives you full control over your website content through an intuitive admin panel. We set it up so you can manage everything yourself — in English.&lt;/p>
 &lt;h3 id="whats-included">What&amp;rsquo;s included&lt;/h3>
 &lt;ul>
-&lt;li>&lt;strong>Technical audit&lt;/strong> — analysis of speed, structure, errors and technical issues&lt;/li>
-&lt;li>&lt;strong>On-page optimisation&lt;/strong> — titles, meta descriptions, headings, structured data&lt;/li>
-&lt;li>&lt;strong>Speed optimisation&lt;/strong> — image compression, code minification, caching&lt;/li>
-&lt;li>&lt;strong>Mobile optimisation&lt;/strong> — responsive design, Core Web Vitals&lt;/li>
-&lt;li>&lt;strong>Local SEO&lt;/strong> — Google Business Profile, local keywords&lt;/li>
-&lt;li>&lt;strong>Content strategy&lt;/strong> — keyword research and content structure planning&lt;/li>
+&lt;li>&lt;strong>English admin panel&lt;/strong> — manage your content in a language you&amp;rsquo;re comfortable with&lt;/li>
+&lt;li>&lt;strong>E-commerce (WooCommerce)&lt;/strong> — sell online with Czech payment gateways (card, bank transfer)&lt;/li>
+&lt;li>&lt;strong>Blog and news&lt;/strong> — publish articles to build authority and attract customers from Google&lt;/li>
+&lt;li>&lt;strong>Bilingual content&lt;/strong> — Czech and English versions via WPML or Polylang to reach local and international clients&lt;/li>
+&lt;li>&lt;strong>SEO tools&lt;/strong> — Yoast SEO or Rank Math for visibility in Czech Google results&lt;/li>
+&lt;li>&lt;strong>Contact forms&lt;/strong> — inquiries delivered straight to your inbox&lt;/li>
 &lt;/ul>
-&lt;h3 id="why-seo">Why SEO&lt;/h3>
+&lt;h3 id="who-benefits-from-wordpress">Who benefits from WordPress&lt;/h3>
 &lt;ul>
-&lt;li>68% of online experiences begin with a search engine&lt;/li>
-&lt;li>Organic traffic is the cheapest long-term source of customers&lt;/li>
-&lt;li>Better rankings = greater customer trust&lt;/li>
-&lt;li>SEO works 24/7 without additional advertising costs&lt;/li>
+&lt;li>&lt;strong>Online stores&lt;/strong> — from small catalogs to hundreds of products, with Czech payment integration&lt;/li>
+&lt;li>&lt;strong>Companies with frequent updates&lt;/strong> — prices, events, team changes, portfolios&lt;/li>
+&lt;li>&lt;strong>Service businesses&lt;/strong> — online booking, client portfolios, testimonials&lt;/li>
+&lt;li>&lt;strong>Restaurants and hospitality&lt;/strong> — menus, opening hours, reservations&lt;/li>
+&lt;li>&lt;strong>Organizations and communities&lt;/strong> — events, newsletters, member sections&lt;/li>
 &lt;/ul>
-&lt;h3 id="our-approach">Our approach&lt;/h3>
+&lt;h3 id="what-you-get-at-launch">What you get at launch&lt;/h3>
 &lt;ol>
-&lt;li>&lt;strong>Audit&lt;/strong> — we assess the current state of your website and rankings&lt;/li>
-&lt;li>&lt;strong>Analysis&lt;/strong> — we research competitors and opportunities&lt;/li>
-&lt;li>&lt;strong>Implementation&lt;/strong> — we carry out technical and content improvements&lt;/li>
-&lt;li>&lt;strong>Monitoring&lt;/strong> — we track results and Google rankings&lt;/li>
-&lt;li>&lt;strong>Reporting&lt;/strong> — we keep you informed of progress regularly&lt;/li>
-&lt;/ol></description></item><item><title>Support &amp; Maintenance</title><link>https://webvam.cz/en/services/support-maintenance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://webvam.cz/en/services/support-maintenance/</guid><description>&lt;h2 id="your-website-in-safe-hands">Your website in safe hands&lt;/h2>
-&lt;p>Regular website maintenance is essential for security, speed and reliability. We take care of the technical side so you can focus on your business.&lt;/p>
-&lt;h3 id="what-monthly-support-includes">What monthly support includes&lt;/h3>
+&lt;li>&lt;strong>WordPress installation&lt;/strong> on reliable hosting with daily backups&lt;/li>
+&lt;li>&lt;strong>Custom design&lt;/strong> — tailored to your brand and target audience&lt;/li>
+&lt;li>&lt;strong>Essential plugins&lt;/strong> — security, SEO, forms, anti-spam, performance&lt;/li>
+&lt;li>&lt;strong>Training session&lt;/strong> — we show you how to add content, products, and images&lt;/li>
+&lt;li>&lt;strong>30 days of support&lt;/strong> — we help with any questions after launch&lt;/li>
+&lt;/ol>
+&lt;h3 id="security-and-maintenance">Security and maintenance&lt;/h3>
+&lt;p>WordPress is secure when properly configured. We install a firewall, set up automatic backups, and keep everything updated. If you&amp;rsquo;d rather not deal with the technical side, our monthly maintenance service handles it all.&lt;/p></description></item><item><title>SEO Optimization</title><link>https://webvam.cz/en/services/seo-optimization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://webvam.cz/en/services/seo-optimization/</guid><description>&lt;h2 id="get-found-by-czech-customers--even-in-english">Get found by Czech customers — even in English&lt;/h2>
+&lt;p>You have a great business in Czech Republic, but local customers can&amp;rsquo;t find you on Google? SEO optimization bridges the gap between your English-language business and the Czech market. We help you rank in Google.cz and attract customers who are searching for exactly what you offer.&lt;/p>
+&lt;h3 id="what-seo-optimization-includes">What SEO optimization includes&lt;/h3>
 &lt;ul>
-&lt;li>&lt;strong>Updates&lt;/strong> — WordPress core, plugins, themes (for WP sites)&lt;/li>
-&lt;li>&lt;strong>Backups&lt;/strong> — regular full website and database backups&lt;/li>
-&lt;li>&lt;strong>Security&lt;/strong> — monitoring and protection against attacks&lt;/li>
-&lt;li>&lt;strong>Uptime monitoring&lt;/strong> — 24/7 website availability tracking&lt;/li>
-&lt;li>&lt;strong>Minor edits&lt;/strong> — text changes, image updates and small design tweaks&lt;/li>
-&lt;li>&lt;strong>Technical support&lt;/strong> — responses to your questions within 24 hours&lt;/li>
+&lt;li>&lt;strong>Technical audit&lt;/strong> — we find and fix issues that prevent Google from ranking your site&lt;/li>
+&lt;li>&lt;strong>Keyword research&lt;/strong> — we identify what your Czech and international customers actually search for&lt;/li>
+&lt;li>&lt;strong>On-page optimization&lt;/strong> — titles, meta descriptions, headings, structured data&lt;/li>
+&lt;li>&lt;strong>Speed optimization&lt;/strong> — Core Web Vitals, image compression, caching&lt;/li>
+&lt;li>&lt;strong>Local SEO&lt;/strong> — Google Business Profile, Google Maps visibility for your area&lt;/li>
+&lt;li>&lt;strong>Content strategy&lt;/strong> — what content to create to attract and convert visitors&lt;/li>
 &lt;/ul>
-&lt;h3 id="why-regular-maintenance-matters">Why regular maintenance matters&lt;/h3>
+&lt;h3 id="why-seo-matters-for-expat-businesses">Why SEO matters for expat businesses&lt;/h3>
 &lt;ul>
-&lt;li>43% of cyber attacks target small websites&lt;/li>
-&lt;li>An outdated website is a security risk&lt;/li>
-&lt;li>Regular backups mean peace of mind&lt;/li>
-&lt;li>An optimised website means happy customers&lt;/li>
+&lt;li>Over 90% of Czech consumers search for services on Google&lt;/li>
+&lt;li>Even English-speaking clients in Czechia use Google.cz — your site needs to rank there&lt;/li>
+&lt;li>Local SEO brings customers from your neighborhood — &amp;ldquo;english dentist Prague&amp;rdquo;, &amp;ldquo;expat accountant Brno&amp;rdquo;&lt;/li>
+&lt;li>Organic traffic is the most cost-effective customer acquisition channel&lt;/li>
+&lt;li>SEO works 24/7 — unlike ads that stop the moment you pause the budget&lt;/li>
 &lt;/ul>
-&lt;h3 id="support-plans">Support plans&lt;/h3>
+&lt;h3 id="bilingual-seo--our-expertise">Bilingual SEO — our expertise&lt;/h3>
+&lt;p>Your customers include both Czech speakers and English speakers. We optimize your site for both audiences: Czech keywords for the local market and English keywords for the expat community. Proper hreflang setup, separate indexing, and a keyword strategy for each language.&lt;/p></description></item><item><title>Support &amp; Maintenance</title><link>https://webvam.cz/en/services/support-maintenance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://webvam.cz/en/services/support-maintenance/</guid><description>&lt;h2 id="focus-on-your-business--we-take-care-of-the-website">Focus on your business — we take care of the website&lt;/h2>
+&lt;p>Running a business in a foreign country is complex enough. You shouldn&amp;rsquo;t have to worry about WordPress updates, security patches, or website downtime. We handle the technical side so you can focus on what you do best.&lt;/p>
+&lt;h3 id="what-monthly-maintenance-includes">What monthly maintenance includes&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Updates&lt;/strong> — WordPress core, plugins, and themes always up to date&lt;/li>
+&lt;li>&lt;strong>Backups&lt;/strong> — regular backups so you never lose your data&lt;/li>
+&lt;li>&lt;strong>Security&lt;/strong> — firewall, threat monitoring, malware protection&lt;/li>
+&lt;li>&lt;strong>24/7 monitoring&lt;/strong> — if your site goes down, we know immediately and fix it&lt;/li>
+&lt;li>&lt;strong>Content changes&lt;/strong> — need to update text, images, or prices? Just send us an email&lt;/li>
+&lt;li>&lt;strong>English-speaking support&lt;/strong> — we respond within 24 hours, in English&lt;/li>
+&lt;/ul>
+&lt;h3 id="why-ongoing-maintenance-matters">Why ongoing maintenance matters&lt;/h3>
+&lt;ul>
+&lt;li>43% of cyber attacks target small business websites&lt;/li>
+&lt;li>An unpatched vulnerability can expose customer data and damage your reputation&lt;/li>
+&lt;li>Slow websites lose customers — every extra second of load time reduces conversions by 7%&lt;/li>
+&lt;li>Website downtime means lost orders and lost trust&lt;/li>
+&lt;/ul>
+&lt;h3 id="maintenance-plans">Maintenance plans&lt;/h3>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -119,13 +116,13 @@
  &lt;td>daily&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Content edits&lt;/td>
+ &lt;td>Content changes&lt;/td>
  &lt;td>1h/month&lt;/td>
  &lt;td>3h/month&lt;/td>
  &lt;td>5h/month&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>Monitoring&lt;/td>
+ &lt;td>24/7 monitoring&lt;/td>
  &lt;td>✓&lt;/td>
  &lt;td>✓&lt;/td>
  &lt;td>✓&lt;/td>
@@ -143,26 +140,30 @@
  &lt;td>✓&lt;/td>
  &lt;/tr>
  &lt;/tbody>
-&lt;/table></description></item><item><title>Domain &amp; Hosting</title><link>https://webvam.cz/en/services/domain-hosting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://webvam.cz/en/services/domain-hosting/</guid><description>&lt;h2 id="everything-in-one-place">Everything in one place&lt;/h2>
-&lt;p>You don&amp;rsquo;t need to worry about technical details — we handle domain registration, hosting setup, SSL certificates and email accounts. Everything in one place, one point of contact.&lt;/p>
-&lt;h3 id="what-we-provide">What we provide&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>Domain registration&lt;/strong> — .cz, .com, .eu and other extensions&lt;/li>
-&lt;li>&lt;strong>Hosting&lt;/strong> — reliable hosting with SSD storage and SSL certificate&lt;/li>
-&lt;li>&lt;strong>Email accounts&lt;/strong> — professional email on your domain (&lt;a href="mailto:info@yourcompany.cz">info@yourcompany.cz&lt;/a>)&lt;/li>
-&lt;li>&lt;strong>SSL certificate&lt;/strong> — encrypted connection (HTTPS) for security and SEO&lt;/li>
-&lt;li>&lt;strong>DNS configuration&lt;/strong> — proper domain setup&lt;/li>
-&lt;li>&lt;strong>Technical support&lt;/strong> — help with any issues&lt;/li>
-&lt;/ul>
+&lt;/table>
 &lt;h3 id="why-choose-us">Why choose us&lt;/h3>
+&lt;p>We don&amp;rsquo;t manage hundreds of websites on an assembly line. Each client gets personal attention from a dedicated specialist. You know your contact by name, communicate in English, and get a human response — not a ticket number.&lt;/p></description></item><item><title>Domain &amp; Hosting</title><link>https://webvam.cz/en/services/domain-hosting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://webvam.cz/en/services/domain-hosting/</guid><description>&lt;h2 id="domain-hosting-and-email--all-in-one-place">Domain, hosting, and email — all in one place&lt;/h2>
+&lt;p>Setting up a .cz domain, configuring hosting, and creating professional email addresses can be confusing — especially when the documentation is in Czech. We handle everything for you: one point of contact, one invoice, zero hassle.&lt;/p>
+&lt;h3 id="what-we-set-up-for-you">What we set up for you&lt;/h3>
 &lt;ul>
-&lt;li>One contact for everything — website, domain, hosting, email&lt;/li>
-&lt;li>Correct setup from the start&lt;/li>
-&lt;li>No hassle with technical details&lt;/li>
-&lt;li>Fair pricing with no hidden fees&lt;/li>
+&lt;li>&lt;strong>Domain registration&lt;/strong> — .cz, .com, .eu and dozens of other extensions&lt;/li>
+&lt;li>&lt;strong>Reliable hosting&lt;/strong> — SSD storage, high uptime, automatic backups&lt;/li>
+&lt;li>&lt;strong>SSL certificate&lt;/strong> — encrypted HTTPS connection for security and customer trust&lt;/li>
+&lt;li>&lt;strong>Professional email&lt;/strong> — &lt;a href="mailto:info@yourcompany.cz">info@yourcompany.cz&lt;/a> instead of a Gmail address&lt;/li>
+&lt;li>&lt;strong>DNS configuration&lt;/strong> — proper setup without the technical headache&lt;/li>
+&lt;li>&lt;strong>English-speaking support&lt;/strong> — help whenever you need it, in your language&lt;/li>
 &lt;/ul>
-&lt;h3 id="supported-platforms">Supported platforms&lt;/h3>
-&lt;p>Hosting on the Plesk platform with high availability and automatic backups. For static websites, we also use GitHub Pages and Netlify for maximum speed.&lt;/p></description></item><item><title>Contact</title><link>https://webvam.cz/en/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://webvam.cz/en/contact/</guid><description>&lt;h2 id="working-hours">Working hours&lt;/h2>
-&lt;p>Monday–Friday: 9:00–18:00&lt;/p>
-&lt;p>We typically reply to emails and messages within 24 hours.&lt;/p></description></item><item><title>Thank you!</title><link>https://webvam.cz/en/thanks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://webvam.cz/en/thanks/</guid><description>&lt;p>Your message has been sent successfully. We will get back to you as soon as possible.&lt;/p>
+&lt;h3 id="why-go-through-us">Why go through us&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Single contact&lt;/strong> — website, domain, hosting, and email from one provider&lt;/li>
+&lt;li>&lt;strong>Done-for-you setup&lt;/strong> — no need to figure out DNS records, MX entries, or SSL certificates&lt;/li>
+&lt;li>&lt;strong>Transparent pricing&lt;/strong> — no hidden fees or automatic price increases at renewal&lt;/li>
+&lt;li>&lt;strong>Free migration&lt;/strong> — if your website is hosted elsewhere, we&amp;rsquo;ll move it for free&lt;/li>
+&lt;/ul>
+&lt;h3 id="which-domain-to-choose">Which domain to choose&lt;/h3>
+&lt;p>For businesses targeting Czech customers, we recommend .cz — it builds trust with local clients and signals relevance for local SEO. For international reach, .com or .eu are solid choices. We&amp;rsquo;ll check availability and help you pick the right one.&lt;/p></description></item><item><title>Contact</title><link>https://webvam.cz/en/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://webvam.cz/en/contact/</guid><description>&lt;h2 id="how-it-works">How it works&lt;/h2>
+&lt;p>Send us a message in English — tell us about your business and what you need: a new website, e-commerce, SEO, or ongoing support. We&amp;rsquo;ll get back to you within 24 hours with a tailored proposal. First consultation is free.&lt;/p>
+&lt;h2 id="working-hours">Working hours&lt;/h2>
+&lt;p>Monday–Friday: 9:00–18:00 (CET)&lt;/p>
+&lt;p>We typically reply to emails and messages within 24 hours. Full communication in English — no language barrier.&lt;/p></description></item><item><title>Thank you!</title><link>https://webvam.cz/en/thanks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://webvam.cz/en/thanks/</guid><description>&lt;p>Your message has been sent successfully. We will get back to you as soon as possible.&lt;/p>
 &lt;p>If you have an urgent question, contact us directly at &lt;a href="mailto:info@webvam.cz">info@webvam.cz&lt;/a> or via &lt;a href="https://t.me/&amp;#43;420773212221">Telegram&lt;/a>.&lt;/p></description></item></channel></rss>
