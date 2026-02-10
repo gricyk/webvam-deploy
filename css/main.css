@@ -449,6 +449,7 @@ ul { list-style: none; }
   margin-bottom: 40px;
 }
 .site-footer .logo { color: #fff; }
+.site-footer .logo-name { color: #fff; }
 .site-footer .logo-bracket { color: var(--accent); }
 .footer-tagline { margin-top: 12px; font-size: .875rem; line-height: 1.6; }
 .footer-contact p   { margin-bottom: 6px; font-size: .875rem; }
