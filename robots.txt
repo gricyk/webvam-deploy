@@ -6,25 +6,108 @@ Disallow: /spasibo/
 Disallow: /dyakujemo/
 
 # AI Crawlers — allow indexing for AI discoverability
+
+
+# xAI / Grok
+User-agent: GrokBot
+Allow: /
+
+User-agent: xAI-Grok
+Allow: /
+
+User-agent: Grok-DeepSearch
+Allow: /
+
+# OpenAI / ChatGPT
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
+# Anthropic / Claude
+User-agent: anthropic-ai
+Allow: /
+
 User-agent: Claude-Web
 Allow: /
 
-User-agent: Googlebot-Extended
+User-agent: ClaudeBot
 Allow: /
 
+# Google / Gemini / Bard
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# Microsoft / Bing / Copilot
+User-agent: Bingbot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+# Perplexity AI
 User-agent: PerplexityBot
 Allow: /
 
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Meta / Facebook AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Common Crawl (used for AI training)
 User-agent: CCBot
 Allow: /
 
+# Amazon / Alexa
+User-agent: Amazonbot
+Allow: /
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Other AI research crawlers
 User-agent: Bytespider
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: AI2Bot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: omgili
+Allow: /
+
+User-agent: omgilibot
 Allow: /
 
 Sitemap: https://webvam.cz/sitemap.xml
