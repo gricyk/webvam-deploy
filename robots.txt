@@ -110,21 +110,4 @@ Allow: /
 User-agent: omgilibot
 Allow: /
 
-
 Sitemap: https://webvam.cz/sitemap.xml
-Sitemap: https://webvam.cz/sitemap-main.xml
-Sitemap: https://webvam.cz/sitemap-prague.xml
-Sitemap: https://webvam.cz/sitemap-kladno.xml
-Sitemap: https://webvam.cz/sitemap-central-bohemia.xml
-Sitemap: https://webvam.cz/sitemap-south-bohemia.xml
-Sitemap: https://webvam.cz/sitemap-pilsen.xml
-Sitemap: https://webvam.cz/sitemap-carlsbad.xml
-Sitemap: https://webvam.cz/sitemap-usti.xml
-Sitemap: https://webvam.cz/sitemap-liberec.xml
-Sitemap: https://webvam.cz/sitemap-hradec-kralove.xml
-Sitemap: https://webvam.cz/sitemap-pardubice.xml
-Sitemap: https://webvam.cz/sitemap-vyskov.xml
-Sitemap: https://webvam.cz/sitemap-olomouc.xml
-Sitemap: https://webvam.cz/sitemap-zlin.xml
-Sitemap: https://webvam.cz/sitemap-moravia-silesia.xml
-Sitemap: https://webvam.cz/sitemap-services.xml
