@@ -283,6 +283,138 @@ ul { list-style: none; }
 .c-key { color: #cba6f7; }
 .c-val { color: var(--accent); }
 
+/* ─── Results / Social Proof ──────────────────────────────────── */
+.results { background: #fff; }
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+.result-card {
+  text-align: center;
+  padding: 32px 20px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  transition: all .25s ease;
+}
+.result-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+.result-card__value {
+  font-family: var(--font-mono);
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 700;
+  color: var(--accent-dark);
+  line-height: 1.1;
+  margin-bottom: 8px;
+}
+.result-card__label {
+  font-size: .875rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+/* ─── Growth Package ─────────────────────────────────────────── */
+.growth-card {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 48px;
+  align-items: center;
+  background: var(--bg-dark);
+  border-radius: var(--radius-lg);
+  padding: 48px;
+  color: #cdd6f4;
+}
+.growth-card__badge {
+  font-family: var(--font-mono);
+  font-size: .75rem;
+  color: var(--accent);
+  background: rgba(46,204,113,.12);
+  border: 1px solid rgba(46,204,113,.3);
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 100px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  font-weight: 600;
+}
+.growth-card__title {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+.growth-card__desc {
+  font-size: .95rem;
+  line-height: 1.7;
+  color: #9ca3af;
+  margin-bottom: 24px;
+}
+.growth-card__list {
+  list-style: none;
+  margin-bottom: 28px;
+}
+.growth-card__list li {
+  padding: 8px 0 8px 28px;
+  position: relative;
+  color: #cdd6f4;
+  font-size: .95rem;
+  line-height: 1.6;
+}
+.growth-card__list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Growth visual stack */
+.growth-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.growth-stack__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 24px;
+  border-radius: var(--radius);
+  font-size: .9rem;
+  font-weight: 600;
+  width: 100%;
+  max-width: 260px;
+  border: 1px solid #2d2d2d;
+  background: #242424;
+  color: #cdd6f4;
+  transition: all .25s ease;
+}
+.growth-stack__item:hover {
+  border-color: var(--accent);
+  transform: scale(1.03);
+}
+.growth-stack__icon {
+  font-size: 1.4rem;
+}
+.growth-stack__item--result {
+  background: rgba(46,204,113,.15);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.growth-stack__arrow {
+  font-size: 1.5rem;
+  color: var(--accent);
+  font-weight: 700;
+  transform: rotate(90deg);
+}
+
 /* ─── Services ───────────────────────────────────────────────── */
 .services { background: #fff; }
 .services-grid {
@@ -712,7 +844,10 @@ ul { list-style: none; }
 @media (max-width: 900px) {
   .hero .container { grid-template-columns: 1fr; gap: 40px; }
   .hero-visual      { display: none; }
+  .results-grid     { grid-template-columns: repeat(2, 1fr); }
   .service-card     { flex: 0 1 calc(50% - 12px); }
+  .growth-card      { grid-template-columns: 1fr; padding: 32px; }
+  .growth-card__visual { display: none; }
   .contact-grid     { grid-template-columns: 1fr; gap: 40px; }
   .footer-grid      { grid-template-columns: 1fr 1fr; }
 }
@@ -819,6 +954,10 @@ ul { list-style: none; }
 
   .menu-toggle   { display: flex; }
   .lang-switcher { margin-left: auto; }
+  .results-grid  { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .result-card   { padding: 20px 16px; }
+  .result-card__value { font-size: 1.8rem; }
+  .growth-card   { padding: 24px; }
   .service-card  { flex: 0 1 100%; }
   .footer-grid   { grid-template-columns: 1fr; }
   .section       { padding: 56px 0; }
