@@ -407,6 +407,9 @@ ul { list-style: none; }
 }
 .contact-link span { font-size: 1.1rem; }
 .contact-link:hover { color: var(--accent-dark); }
+.social-links { margin-top: 16px; display: flex; gap: 16px; }
+.social-links a { color: var(--text-muted); font-size: .875rem; transition: color .15s; }
+.social-links a:hover { color: var(--accent); }
 
 /* Form */
 .contact-form { display: flex; flex-direction: column; gap: 20px; }
