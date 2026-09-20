@@ -1,84 +1,84 @@
-# Tvorba webů, Google Ads a SEO pro firmy v ČR
+# Создание сайтов, Google Ads и SEO для бизнеса в Чехии
 
-WEBVAM Studio staví weby pro české firmy a živnostníky a vede k nim reklamu v Google Ads a Sklik i e-mailové kampaně. Weby dosahují 95 až 100 bodů v Google PageSpeed a obsahují llms.txt, markdown verze stránek a Schema.org, takže je přečtou i AI vyhledávače. Sídlo v Kladně, práce po celé ČR, odpověď na poptávku do 24 hodin.
+WEBVAM Studio делает сайты для бизнеса в Чехии и ведёт к ним рекламу в Google Ads и Sklik, а также почтовые рассылки. Сайты набирают 95–100 баллов в Google PageSpeed и содержат llms.txt, markdown-версии страниц и Schema.org, поэтому их читают и AI-поисковики. Офис в Кладно, работаем по всей Чехии, отвечаем на заявку за 24 часа.
 
-Tvorba webů, správa Google Ads a Sklik, SEO. Weby s PageSpeed 95–100, které čtou i AI vyhledávače. Kladno, Praha a celá ČR, odpověď do 24 hodin.
-
----
-
-## Proč nám klienti důvěřují
-
-- 95–100: bodů Google PageSpeed u webů, které předáváme
-- +30 %: nárůst poptávek po spojení webu s reklamou
-- 2 jazyky: web v češtině i v jazyce vašich zákazníků
-- 24 h: na odpověď na vaši poptávku
+Создание сайтов, Google Ads и Sklik, SEO. Сайты с PageSpeed 95–100, которые читают и AI-поисковики. Кладно, Прага, вся ЧР, ответ за 24 часа.
 
 ---
 
-## AI viditelnost
+## Почему нам доверяют клиенты
 
-Zákazník se ptá umělé inteligence. Ať odpoví vaším jménem.
-
-Lidé přestali procházet deset odkazů. Zeptají se ChatGPT, Gemini nebo Perplexity a dostanou jednu odpověď se dvěma třemi doporučeními. V té odpovědi je buď vaše firma, nebo konkurence.
-
-Tyhle systémy čtou web jinak než Google: nespouštějí JavaScript, nečekají na dokreslení stránky a berou jen to, co si dokážou ověřit. Běžný web jim nedá skoro nic. Do každého webu proto zabudujeme vrstvu, kterou stroje přečtou, a tenhle web je toho důkazem.
-
----
-
-## Jak vám přivedeme zákazníky
-
-### AI viditelnost webu
-
-Vrstva, díky které vás doporučí ChatGPT, Gemini i Perplexity: llms.txt, markdown verze každé stránky, Schema.org JSON-LD a karta MCP serveru.
-
-[Zjistit více](https://webvam.cz/sluzby/ai-viditelnost/)
-
-### Statický web (Hugo)
-
-Rychlý web na Hugo bez databáze a pluginů. Google PageSpeed 95–100, nasazení na hosting s SSL a zaškolení v ceně. Od 15 000 Kč.
-
-**od** 15 000 Kč · [Zjistit více](https://webvam.cz/sluzby/staticke-weby/)
-
-### Web s CMS (WordPress)
-
-Web na WordPressu, který si spravujete sami. Design na míru, pluginy pro bezpečnost a zálohy, zaškolení a 30 dní podpory po spuštění. Od 20 000 Kč.
-
-**od** 20 000 Kč · [Zjistit více](https://webvam.cz/sluzby/cms-weby/)
-
-### SEO optimalizace
-
-SEO pro Google i Seznam, který používá přes čtvrtinu Čechů. Technický audit, klíčová slova, měsíční report pozic a konverzí. Od 5 000 Kč.
-
-**od** 5 000 Kč · [Zjistit více](https://webvam.cz/sluzby/seo-optimalizace/)
-
-### Správa a údržba
-
-Aktualizace, zálohy a monitoring webu plus 1 až 5 hodin úprav obsahu měsíčně podle tarifu. Na dotazy odpovídáme do 24 hodin. Od 1 500 Kč měsíčně.
-
-**od** 1 500 Kč / měsíc · [Zjistit více](https://webvam.cz/sluzby/sprava-a-udrzba/)
-
-### Doména a hosting
-
-Registrace .cz nebo .com domény, hosting s SSL certifikátem a e-mailové schránky na vaší doméně. Od 500 Kč měsíčně.
-
-**od** 500 Kč / měsíc · [Zjistit více](https://webvam.cz/sluzby/domena-a-hosting/)
+- 95–100: баллов Google PageSpeed у сайтов, которые сдаём
+- +30 %: рост заявок после связки сайта с рекламой
+- 2 языка: сайт на чешском и на языке ваших клиентов
+- 24 ч: на ответ по вашей заявке
 
 ---
 
-## Web, reklama a e-maily v jednom řetězci
+## Видимость в ИИ
 
-Nechcete jen web, chcete zákazníky
+Клиент спрашивает не Google, а нейросеть. Пусть она назовёт вас.
 
-Web sám o sobě poptávky nepřinese. Funguje řetězec: stránka, která dovede návštěvníka k formuláři, reklama, která na tu stránku přivádí lidi, a e-maily, které vrátí ty, co odešli. Skládáme to dohromady a ručíme za celek.
+Люди перестали просматривать десять ссылок. Они спрашивают ChatGPT, Gemini или Perplexity и получают один ответ с двумя-тремя рекомендациями. В этом ответе будет либо ваша фирма, либо конкурент.
 
-- Web postavený kolem jediného cíle: poptávky
-- Kampaně v Google Ads a Sklik: Seznam používá přes čtvrtinu Čechů
-- E-maily zákazníkům: opakované prodeje bez dalšího rozpočtu na reklamu
-- Měsíční přehled: kolik poptávek, z jakého kanálu a za kolik
+Эти системы читают сайт не так, как Google: не выполняют JavaScript, не ждут дорисовки страницы и берут только то, что могут проверить. Обычному сайту отдать им нечего. Поэтому в каждый сайт мы закладываем слой, который машина прочитает, и этот сайт тому доказательство.
 
 ---
 
-## Výsledky naší práce
+## Как мы приведём вам клиентов
+
+### Видимость сайта в ИИ
+
+Слой, из-за которого вас рекомендуют ChatGPT, Gemini и Perplexity: llms.txt, markdown-версии страниц, Schema.org JSON-LD и карточка MCP-сервера.
+
+[Подробнее](https://webvam.cz/uslugi/vidimost-v-ii/)
+
+### Статический сайт (Hugo)
+
+Быстрый сайт на Hugo без базы данных и плагинов. PageSpeed 95–100, размещение на хостинге с SSL и обучение в цене. От 15 000 Kč.
+
+**от** 15 000 Kč · [Подробнее](https://webvam.cz/uslugi/staticheskie-sajty/)
+
+### Сайт с CMS (WordPress)
+
+Сайт на WordPress, которым вы управляете сами. Дизайн, плагины безопасности и бэкапов, обучение и 30 дней поддержки после запуска. От 20 000 Kč.
+
+**от** 20 000 Kč · [Подробнее](https://webvam.cz/uslugi/cms-sajty/)
+
+### SEO оптимизация
+
+SEO под Google и Seznam, которым пользуется больше четверти чехов. Техаудит, ключевые слова, ежемесячный отчёт по позициям. От 5 000 Kč.
+
+**от** 5 000 Kč · [Подробнее](https://webvam.cz/uslugi/seo-optimizaciya/)
+
+### Поддержка и обслуживание
+
+Обновления, бэкапы и мониторинг сайта плюс 1–5 часов правок контента в месяц по тарифу. Отвечаем по-русски за 24 часа. От 1 500 Kč в месяц.
+
+**от** 1 500 Kč / měsíc · [Подробнее](https://webvam.cz/uslugi/podderzhka-i-obsluzhivanie/)
+
+### Домен и хостинг
+
+Регистрация .cz или .com домена, хостинг с SSL-сертификатом и почтовые ящики на вашем домене. От 500 Kč в месяц.
+
+**от** 500 Kč / měsíc · [Подробнее](https://webvam.cz/uslugi/domen-i-hosting/)
+
+---
+
+## Сайт, реклама и письма в одной связке
+
+Вам нужен не сайт, вам нужны клиенты
+
+Сайт сам по себе заявок не приносит. Работает цепочка: страница, которая доводит посетителя до формы, реклама, которая на эту страницу приводит людей, и письма, которые возвращают ушедших. Собираем всё вместе и отвечаем за результат целиком.
+
+- Сайт, собранный вокруг одной цели: заявки
+- Кампании в Google Ads и Sklik: Seznam ищут больше четверти чехов
+- Письма клиентам: повторные продажи без нового бюджета на рекламу
+- Отчёт раз в месяц: сколько заявок, из какого канала и по какой цене
+
+---
+
+## Результаты нашей работы
 
 - [Hostivice Food](https://hostivicefood.cz): Restaurace a rozvoz jídla
 
@@ -88,7 +88,7 @@ Web sám o sobě poptávky nepřinese. Funguje řetězec: stránka, která doved
 
 ---
 
-## Začněme růst vašeho byznysu
+## Начнём рост вашего бизнеса
 
 **Igor Gricyk**
 IČO: 10681221
@@ -102,11 +102,5 @@ Kladno, Czechia
 
 ## Language versions
 
-- Česky: [https://webvam.cz/](https://webvam.cz/)
-
-- Русский: [https://webvam.cz/ru/](https://webvam.cz/ru/)
-
-- Українська: [https://webvam.cz/uk/](https://webvam.cz/uk/)
-
-- English: [https://webvam.cz/en/](https://webvam.cz/en/)
+- Русский: [https://webvam.cz/](https://webvam.cz/)
 

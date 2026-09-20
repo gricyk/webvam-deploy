@@ -18,6 +18,26 @@ AddCharset utf-8 .md
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
+    # ─── Одна языковая версия (сентябрь 2026) ────────────────────────────────
+    # Публикуется только русская, и она переехала из /ru/ в корень.
+    # Правила стоят перед согласованием markdown: сначала приводим URL
+    # к существующему, потом уже решаем, отдавать HTML или markdown.
+
+    # Русские страницы: /ru/uslugi/ → /uslugi/, постранично, чтобы не терять
+    # позиции по каждому адресу отдельно.
+    RewriteRule ^ru$ /  [R=301,L]
+    RewriteRule ^ru/$ / [R=301,L]
+    RewriteRule ^ru/(.+)$ /$1 [R=301,L]
+
+    # Чешская, украинская и английская версии сняты с публикации целиком —
+    # весь их трафик уходит на русскую главную.
+    RewriteRule ^(uk|en)(/.*)?$ / [R=301,L]
+
+    # Чешская версия жила без префикса, поэтому её разделы перечислены явно.
+    # /portfolio/ и /kontakt/ здесь нет: эти адреса совпадают с русскими
+    # и теперь отдают русскую страницу.
+    RewriteRule ^(sluzby|dekujeme|zasady-ochrany-osobnich-udaju)(/.*)?$ / [R=301,L]
+
     # Корень сайта. Внутри .htaccess путь запроса «/» — пустая строка, а
     # правило ниже требует слэш на конце, поэтому главную оно не ловило.
     # Из-за этого главная была единственной страницей, отдававшей HTML
@@ -27,12 +47,12 @@ AddCharset utf-8 .md
     RewriteCond %{DOCUMENT_ROOT}/index.md -f
     RewriteRule ^$ index.md [L,E=SERVE_MARKDOWN:1]
 
-    # Каталоги: /en/, /sluzby/, /ru/uslugi/ и так далее
+    # Каталоги: /uslugi/, /portfolio/ и так далее
     RewriteCond %{HTTP_ACCEPT} text/markdown
     RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}index.md -f
     RewriteRule ^(.*/)$ $1index.md [L,E=SERVE_MARKDOWN:1]
 
-    # Non-directory requests without extension: /en, /en/services
+    # Non-directory requests without extension: /uslugi, /uslugi/seo-optimizaciya
     RewriteCond %{HTTP_ACCEPT} text/markdown
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}/index.md -f

@@ -1,17 +1,17 @@
-# Kontakt
+# Контакты
 
-Kontaktujte WEBVAM Studio, tvorba webových stránek na míru pro české firmy. Kladno, Praha a celá ČR.
+Свяжитесь с WEBVAM Studio: русскоязычный веб-разработчик в Чехии. Создание сайтов, SEO, поддержка. Кладно, Прага и вся ЧР.
 
 
-## Jak to funguje
+## Как мы работаем
 
-Napište nám e-mail nebo vyplňte formulář. Popište, co potřebujete: nový web, redesign, SEO nebo správu. Ozveme se vám do 24 hodin a domluvíme se na dalším postupu. Konzultace je zdarma.
+Напишите нам на русском: расскажите о вашем бизнесе и что вам нужно: новый сайт, продвижение, интернет-магазин или техническую поддержку. Мы ответим в течение 24 часов и предложим оптимальное решение. Первая консультация, бесплатно.
 
-## Pracovní doba
+## Время работы
 
-Pondělí–Pátek: 9:00–18:00
+Понедельник–Пятница: 9:00–18:00
 
-Na e-maily a zprávy odpovídáme obvykle do 24 hodin.
+На письма и сообщения отвечаем обычно в течение 24 часов. Пишите на русском, мы всё поймём.
 
 
 ---
@@ -26,11 +26,5 @@ Na e-maily a zprávy odpovídáme obvykle do 24 hodin.
 
 ## Language versions
 
-- Česky: [https://webvam.cz/kontakt/](https://webvam.cz/kontakt/)
-
-- Русский: [https://webvam.cz/ru/kontakt/](https://webvam.cz/ru/kontakt/)
-
-- Українська: [https://webvam.cz/uk/kontakt/](https://webvam.cz/uk/kontakt/)
-
-- English: [https://webvam.cz/en/contact/](https://webvam.cz/en/contact/)
+- Русский: [https://webvam.cz/kontakt/](https://webvam.cz/kontakt/)
 

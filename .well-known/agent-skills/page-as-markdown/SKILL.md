@@ -20,26 +20,27 @@ Retrieve any WEBVAM Studio page as clean, token-efficient markdown instead of HT
 ## Examples
 
 ```
-GET https://webvam.cz/en/
+GET https://webvam.cz/
 Accept: text/markdown
 → 200 OK  Content-Type: text/markdown; charset=utf-8
 ```
 
 ```
-GET https://webvam.cz/en/services/static-websites/
+GET https://webvam.cz/uslugi/staticheskie-sajty/
 Accept: text/markdown
 → 200 OK  Content-Type: text/markdown; charset=utf-8
 ```
 
 ```
-GET https://webvam.cz/ru/
+GET https://webvam.cz/uslugi/
 Accept: text/markdown
-→ 200 OK  Content-Type: text/markdown; charset=utf-8  (Russian content)
+→ 200 OK  Content-Type: text/markdown; charset=utf-8
 ```
 
 ## Notes
 
 - Every page on the site supports this negotiation — homepage, service pages, portfolio, contact
+- The site is published in Russian only; `/en/`, `/ru/` and `/uk/` URLs answer with a 301 redirect
 - Markdown responses are pre-generated at build time; there is no runtime conversion overhead
 - Without `Accept: text/markdown`, the server returns standard HTML (default browser behaviour is unaffected)
 - The `Vary: Accept` header ensures caches serve each format to the right client type

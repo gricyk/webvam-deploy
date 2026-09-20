@@ -1,9 +1,6 @@
 User-agent: *
 Allow: /
-Disallow: /thanks/
-Disallow: /dekujeme/
 Disallow: /spasibo/
-Disallow: /dyakujemo/
 # Content usage preferences (draft-romm-aipref-contentsignals)
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 
@@ -114,10 +111,7 @@ Allow: /
 
 Sitemap: https://webvam.cz/sitemap.xml
 
-# Machine-readable summaries, one per language, UTF-8
-# llms.txt [cs]: https://webvam.cz/llms.txt
-# llms.txt [ru]: https://webvam.cz/ru/llms.txt
-# llms.txt [uk]: https://webvam.cz/uk/llms.txt
-# llms.txt [en]: https://webvam.cz/en/llms.txt
+# Machine-readable summary, UTF-8
+# llms.txt [ru]: https://webvam.cz/llms.txt
 # Any page is also available as clean markdown: send `Accept: text/markdown`
 # or append `index.md` to the URL.

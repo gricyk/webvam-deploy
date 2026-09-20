@@ -7,7 +7,7 @@
     "title": "WEBVAM Studio",
     "version": "1.0.0"
   },
-  "description": "WEBVAM Studio — web development agency based in Kladno, Czech Republic. Website pages support markdown content negotiation (Accept: text/markdown) for agent-friendly access. Available in Czech (default), English (/en/), Russian (/ru/), and Ukrainian (/uk/).",
+  "description": "WEBVAM Studio — web development agency based in Kladno, Czech Republic. Website pages support markdown content negotiation (Accept: text/markdown) for agent-friendly access. Published in Russian; all pages are served from the site root.",
   "documentationUrl": "https://webvam.cz/llms.txt",
   "transport": {
     "type": "streamable-http",

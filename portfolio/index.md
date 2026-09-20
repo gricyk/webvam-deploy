@@ -1,8 +1,8 @@
-# Portfolio
+# Портфолио
 
-Vybrané projekty, které jsme realizovali pro naše klienty
+Избранные проекты, которые мы реализовали для наших клиентов
 
-Portfolio WEBVAM Studio: weby pro české firmy, e-shopy, neziskové organizace a podnikatele.
+Портфолио WEBVAM Studio: сайты для бизнеса, интернет-магазины, некоммерческие организации.
 
 
 ## Pages in this section
@@ -20,11 +20,5 @@ Portfolio WEBVAM Studio: weby pro české firmy, e-shopy, neziskové organizace 
 
 ## Language versions
 
-- Česky: [https://webvam.cz/portfolio/](https://webvam.cz/portfolio/)
-
-- Русский: [https://webvam.cz/ru/portfolio/](https://webvam.cz/ru/portfolio/)
-
-- Українська: [https://webvam.cz/uk/portfolio/](https://webvam.cz/uk/portfolio/)
-
-- English: [https://webvam.cz/en/portfolio/](https://webvam.cz/en/portfolio/)
+- Русский: [https://webvam.cz/portfolio/](https://webvam.cz/portfolio/)
 

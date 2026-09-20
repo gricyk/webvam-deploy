@@ -48,35 +48,6 @@
         }
       }
     },
-    "/{lang}/": {
-      "get": {
-        "operationId": "getLanguagePage",
-        "summary": "Language variant",
-        "description": "Language-specific homepage (en, ru, uk). Supports the same Accept: text/markdown content negotiation as the root.",
-        "parameters": [
-          {
-            "name": "lang",
-            "in": "path",
-            "required": true,
-            "schema": { "type": "string", "enum": ["en", "ru", "uk"] }
-          },
-          {
-            "name": "Accept",
-            "in": "header",
-            "schema": { "type": "string", "example": "text/markdown" }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Language homepage content",
-            "content": {
-              "text/html": { "schema": { "type": "string" } },
-              "text/markdown": { "schema": { "type": "string" } }
-            }
-          }
-        }
-      }
-    },
     "/llms.txt": {
       "get": {
         "operationId": "getLLMsTxt",

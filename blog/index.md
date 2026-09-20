@@ -1,13 +1,13 @@
-# Blog
+# Блог
 
-Rozbory z naší praxe: weby, právo EU, přístupnost a AI.
+Разборы из нашей практики: сайты, право ЕС, доступность и ИИ.
 
-Rozbory z naší praxe: weby, právo EU, přístupnost a AI.
+Разборы из нашей практики: сайты, право ЕС, доступность и ИИ.
 
 
 ## Pages in this section
 
-- [Web rychlého občerstvení: co skill pro Claude našel podle GDPR, ePrivacy, AI Act, DSA a pravidel přístupnosti a proč nebyla potřeba cookie lišta](https://webvam.cz/blog/hostivicefood-gdpr-cookies-pristupnost/): Rozbor webu rychlého občerstvení podle GDPR, ePrivacy, AI Act, DSA a pravidel přístupnosti: 6 problémů, žádné cookies a proč nebyla potřeba cookie lišta.
+- [Сайт фастфуда в Чехии: что скил для Claude нашёл по GDPR, ePrivacy, AI Act, Digital Services Act и доступности и почему cookie-баннер не понадобился](https://webvam.cz/blog/hostivicefood-gdpr-cookies-dostupnost/): Разбор сайта фастфуда по GDPR, ePrivacy, AI Act, DSA и доступности: 6 проблем, ни одной cookie и почему cookie-баннер не понадобился.
 
 
 ---
@@ -22,9 +22,5 @@ Rozbory z naší praxe: weby, právo EU, přístupnost a AI.
 
 ## Language versions
 
-- Česky: [https://webvam.cz/blog/](https://webvam.cz/blog/)
-
-- Русский: [https://webvam.cz/ru/blog/](https://webvam.cz/ru/blog/)
-
-- English: [https://webvam.cz/en/blog/](https://webvam.cz/en/blog/)
+- Русский: [https://webvam.cz/blog/](https://webvam.cz/blog/)
 
