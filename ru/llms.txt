@@ -1,0 +1,116 @@
+# WEBVAM Studio
+
+> Сайты, Google Ads и SEO для бизнеса в Чехии
+
+Language: Русский (ru) · Encoding: UTF-8
+Canonical HTML: https://webvam.cz/ru/
+Other language versions of this file are listed at the end.
+
+WEBVAM Studio делает сайты для бизнеса в Чехии и ведёт к ним рекламу в Google Ads и Sklik, а также почтовые рассылки. Сайты набирают 95–100 баллов в Google PageSpeed и содержат llms.txt, markdown-версии страниц и Schema.org, поэтому их читают и AI-поисковики. Офис в Кладно, работаем по всей Чехии, отвечаем на заявку за 24 часа.
+
+## About
+
+WEBVAM Studio is a web studio run by Igor Gricyk (IČO: 10681221), based in Kladno, Czechia and working across the Czech Republic. Communication in Czech, Russian, Ukrainian and English.
+
+Every website we build ships with a machine-readable layer: an llms.txt like this one, markdown versions of all pages, Schema.org JSON-LD, and an MCP server card. This site is the reference implementation.
+
+## Services
+
+### Видимость сайта в ИИ
+
+Слой, из-за которого вас рекомендуют ChatGPT, Gemini и Perplexity: llms.txt, markdown-версии страниц, Schema.org JSON-LD и карточка MCP-сервера.
+
+- URL: https://webvam.cz/ru/uslugi/vidimost-v-ii/
+- Markdown: https://webvam.cz/ru/uslugi/vidimost-v-ii/index.md
+
+### Статический сайт (Hugo)
+
+Быстрый сайт на Hugo без базы данных и плагинов. PageSpeed 95–100, размещение на хостинге с SSL и обучение в цене. От 15 000 Kč.
+
+- Price: from 15 000 Kč
+- URL: https://webvam.cz/ru/uslugi/staticheskie-sajty/
+- Markdown: https://webvam.cz/ru/uslugi/staticheskie-sajty/index.md
+
+### Сайт с CMS (WordPress)
+
+Сайт на WordPress, которым вы управляете сами. Дизайн, плагины безопасности и бэкапов, обучение и 30 дней поддержки после запуска. От 20 000 Kč.
+
+- Price: from 20 000 Kč
+- URL: https://webvam.cz/ru/uslugi/cms-sajty/
+- Markdown: https://webvam.cz/ru/uslugi/cms-sajty/index.md
+
+### SEO оптимизация
+
+SEO под Google и Seznam, которым пользуется больше четверти чехов. Техаудит, ключевые слова, ежемесячный отчёт по позициям. От 5 000 Kč.
+
+- Price: from 5 000 Kč
+- URL: https://webvam.cz/ru/uslugi/seo-optimizaciya/
+- Markdown: https://webvam.cz/ru/uslugi/seo-optimizaciya/index.md
+
+### Поддержка и обслуживание
+
+Обновления, бэкапы и мониторинг сайта плюс 1–5 часов правок контента в месяц по тарифу. Отвечаем по-русски за 24 часа. От 1 500 Kč в месяц.
+
+- Price: from 1 500 Kč / měsíc
+- URL: https://webvam.cz/ru/uslugi/podderzhka-i-obsluzhivanie/
+- Markdown: https://webvam.cz/ru/uslugi/podderzhka-i-obsluzhivanie/index.md
+
+### Домен и хостинг
+
+Регистрация .cz или .com домена, хостинг с SSL-сертификатом и почтовые ящики на вашем домене. От 500 Kč в месяц.
+
+- Price: from 500 Kč / měsíc
+- URL: https://webvam.cz/ru/uslugi/domen-i-hosting/
+- Markdown: https://webvam.cz/ru/uslugi/domen-i-hosting/index.md
+
+## Blog
+
+### Сайт фастфуда в Чехии: что скил для Claude нашёл по GDPR, ePrivacy, AI Act, Digital Services Act и доступности и почему cookie-баннер не понадобился
+
+Разбор сайта фастфуда по GDPR, ePrivacy, AI Act, DSA и доступности: 6 проблем, ни одной cookie и почему cookie-баннер не понадобился.
+
+- Published: 2026-09-16
+- URL: https://webvam.cz/ru/blog/hostivicefood-gdpr-cookies-dostupnost/
+- Markdown: https://webvam.cz/ru/blog/hostivicefood-gdpr-cookies-dostupnost/index.md
+
+## Machine-readable access
+
+- Any page as clean markdown: send `Accept: text/markdown`, or append `index.md` to the URL
+- Structured data: Schema.org JSON-LD embedded in every page (Organization, LocalBusiness, Service, BreadcrumbList)
+- MCP server card: https://webvam.cz/.well-known/mcp/server-card.json
+- Agent skills: https://webvam.cz/.well-known/agent-skills/index.json
+- API catalog (RFC 9727): https://webvam.cz/.well-known/api-catalog
+- No JavaScript required: full content is present in the initial HTML response
+- No cookies, no analytics, no third-party requests
+
+## Location
+
+Kladno, Czechia, serving Prague, Central Bohemia and all 13 regions of the Czech Republic.
+Coordinates: 50.1413, 14.1036
+
+## Contact
+
+- Email: info@webvam.cz
+- Phone / WhatsApp: +420 773 212 221
+- Telegram: https://t.me/+420773212221
+- GitHub: https://github.com/gricyk
+- Response time: within 24 hours
+
+## Portfolio
+
+- Hostivice Food: Restaurace a rozvoz jídla (https://hostivicefood.cz)
+- Spasenie.eu: Церковный сайт (https://spasenie.eu)
+- TruckHelp&Go: Trucking services (https://truckhelpandgo.de)
+
+## Language versions
+
+Each language has its own llms.txt with services and copy in that language.
+
+- Česky (cs): https://webvam.cz/ · llms.txt: https://webvam.cz/llms.txt
+- Русский (ru): https://webvam.cz/ru/ · llms.txt: https://webvam.cz/ru/llms.txt
+- Українська (uk): https://webvam.cz/uk/ · llms.txt: https://webvam.cz/uk/llms.txt
+- English (en): https://webvam.cz/en/ · llms.txt: https://webvam.cz/en/llms.txt
+
+## Privacy
+
+- https://webvam.cz/ru/politika-konfidencialnosti/

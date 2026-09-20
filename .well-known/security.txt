@@ -1,0 +1,4 @@
+Contact: mailto:info@webvam.cz
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: cs, en, ru, uk
+Canonical: https://webvam.cz/.well-known/security.txt

@@ -1,0 +1,31 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://webvam.cz/.well-known/api-catalog",
+      "item": [
+        { "href": "https://webvam.cz/", "type": "text/html" }
+      ]
+    },
+    {
+      "anchor": "https://webvam.cz/",
+      "service-desc": [
+        {
+          "href": "https://webvam.cz/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://webvam.cz/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://webvam.cz/status.json",
+          "type": "application/json"
+        }
+      ]
+    }
+  ]
+}

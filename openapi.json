@@ -1,0 +1,120 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "WEBVAM Studio",
+    "description": "WEBVAM Studio website. All pages support content negotiation: send Accept: text/markdown to receive clean markdown instead of HTML, optimized for AI agents and LLMs. See /llms.txt for a concise high-level summary.",
+    "version": "1.0.0",
+    "contact": {
+      "name": "WEBVAM Studio",
+      "email": "info@webvam.cz",
+      "url": "https://webvam.cz/"
+    }
+  },
+  "servers": [
+    { "url": "https://webvam.cz", "description": "Production" }
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "operationId": "getHomepage",
+        "summary": "Homepage",
+        "description": "WEBVAM Studio homepage. Supports content negotiation: browsers receive HTML, agents that send Accept: text/markdown receive clean markdown with the same content.",
+        "parameters": [
+          {
+            "name": "Accept",
+            "in": "header",
+            "description": "Send text/markdown to receive agent-friendly markdown output.",
+            "schema": { "type": "string", "example": "text/markdown" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Homepage content",
+            "headers": {
+              "Vary": {
+                "description": "Response varies by Accept header",
+                "schema": { "type": "string", "example": "Accept" }
+              },
+              "Link": {
+                "description": "RFC 8288 agent discovery links",
+                "schema": { "type": "string" }
+              }
+            },
+            "content": {
+              "text/html": { "schema": { "type": "string" } },
+              "text/markdown": { "schema": { "type": "string" } }
+            }
+          }
+        }
+      }
+    },
+    "/{lang}/": {
+      "get": {
+        "operationId": "getLanguagePage",
+        "summary": "Language variant",
+        "description": "Language-specific homepage (en, ru, uk). Supports the same Accept: text/markdown content negotiation as the root.",
+        "parameters": [
+          {
+            "name": "lang",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string", "enum": ["en", "ru", "uk"] }
+          },
+          {
+            "name": "Accept",
+            "in": "header",
+            "schema": { "type": "string", "example": "text/markdown" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Language homepage content",
+            "content": {
+              "text/html": { "schema": { "type": "string" } },
+              "text/markdown": { "schema": { "type": "string" } }
+            }
+          }
+        }
+      }
+    },
+    "/llms.txt": {
+      "get": {
+        "operationId": "getLLMsTxt",
+        "summary": "LLM-readable site description",
+        "description": "Structured plain-text description of WEBVAM Studio — services, portfolio, pricing, and contact details — formatted for large language models.",
+        "responses": {
+          "200": {
+            "description": "Site description in plain text",
+            "content": {
+              "text/plain": { "schema": { "type": "string" } }
+            }
+          }
+        }
+      }
+    },
+    "/status.json": {
+      "get": {
+        "operationId": "getStatus",
+        "summary": "Health status",
+        "description": "Returns site availability status.",
+        "responses": {
+          "200": {
+            "description": "Site is operational",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": ["status"],
+                  "properties": {
+                    "status": { "type": "string", "enum": ["ok"] }
+                  }
+                },
+                "example": { "status": "ok" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

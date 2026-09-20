@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "site-info",
+      "type": "skill-md",
+      "description": "Fetch up-to-date information about WEBVAM Studio (services, pricing, portfolio, contact) using llms.txt or markdown content negotiation on any page.",
+      "url": "/.well-known/agent-skills/site-info/SKILL.md",
+      "digest": "sha256:6ff0a0f67969981716cc1cb2fefa27195938e005329d6ac9bc576eb7c8497555"
+    },
+    {
+      "name": "page-as-markdown",
+      "type": "skill-md",
+      "description": "Retrieve any WEBVAM Studio page as clean, token-efficient markdown by adding Accept: text/markdown to the HTTP request. The server responds with Content-Type: text/markdown and a Vary: Accept header.",
+      "url": "/.well-known/agent-skills/page-as-markdown/SKILL.md",
+      "digest": "sha256:cd6eb6a0db17aacaa3e6d4cb03d524bc15fe9eeb03145f2791989a00f3ac5c31"
+    }
+  ]
+}

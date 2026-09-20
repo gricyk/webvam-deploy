@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/mcp-server-card/v1.json",
+  "version": "1.0",
+  "protocolVersion": "2025-06-18",
+  "serverInfo": {
+    "name": "webvam-studio",
+    "title": "WEBVAM Studio",
+    "version": "1.0.0"
+  },
+  "description": "WEBVAM Studio — web development agency based in Kladno, Czech Republic. Website pages support markdown content negotiation (Accept: text/markdown) for agent-friendly access. Available in Czech (default), English (/en/), Russian (/ru/), and Ukrainian (/uk/).",
+  "documentationUrl": "https://webvam.cz/llms.txt",
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "/"
+  },
+  "capabilities": {
+    "resources": {}
+  },
+  "instructions": "Send Accept: text/markdown in HTTP GET requests to receive any page as clean markdown optimized for LLMs. GET /llms.txt for a structured overview of services, portfolio, and contact details. GET /.well-known/api-catalog for the RFC 9727 API catalog."
+}

@@ -1,0 +1,98 @@
+# Кодировка по умолчанию. Без этого Apache отдаёт .txt и .md без charset,
+# браузер откатывается на однобайтовую кодировку, и «Digitální růst»
+# показывается как «DigitÃ¡lnÃ­ rÅ¯st». Заметно на llms.txt, где есть
+# чешский, русский и украинский.
+# AddDefaultCharset покрывает text/plain (llms.txt, robots.txt, security.txt)
+# и text/html. Для text/markdown нужен отдельный AddCharset — он ниже.
+AddDefaultCharset utf-8
+AddCharset utf-8 .txt
+
+# Tell Apache the MIME type for pre-generated markdown files.
+# AddDefaultCharset действует только на text/plain и text/html, поэтому
+# для text/markdown нужен явный AddCharset — иначе прямой запрос
+# /index.md придёт без кодировки.
+AddType text/markdown .md
+AddCharset utf-8 .md
+
+# Markdown content negotiation for AI agents (Accept: text/markdown)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Корень сайта. Внутри .htaccess путь запроса «/» — пустая строка, а
+    # правило ниже требует слэш на конце, поэтому главную оно не ловило.
+    # Из-за этого главная была единственной страницей, отдававшей HTML
+    # вместо markdown, и проверяльщики агентов, которые тестируют именно
+    # её, считали согласование выключенным на всём сайте.
+    RewriteCond %{HTTP_ACCEPT} text/markdown
+    RewriteCond %{DOCUMENT_ROOT}/index.md -f
+    RewriteRule ^$ index.md [L,E=SERVE_MARKDOWN:1]
+
+    # Каталоги: /en/, /sluzby/, /ru/uslugi/ и так далее
+    RewriteCond %{HTTP_ACCEPT} text/markdown
+    RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}index.md -f
+    RewriteRule ^(.*/)$ $1index.md [L,E=SERVE_MARKDOWN:1]
+
+    # Non-directory requests without extension: /en, /en/services
+    RewriteCond %{HTTP_ACCEPT} text/markdown
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}/index.md -f
+    RewriteRule ^([^.]+[^/])$ $1/index.md [L,E=SERVE_MARKDOWN:1]
+</IfModule>
+
+# Correct Content-Type for extensionless api-catalog and typed OpenAPI file
+<FilesMatch "^api-catalog$">
+    Header always set Content-Type "application/linkset+json"
+</FilesMatch>
+<FilesMatch "^openapi\.json$">
+    Header always set Content-Type "application/openapi+json"
+</FilesMatch>
+
+# CORS for MCP server-card so browser-based agents can fetch it cross-origin
+<FilesMatch "^server-card\.json$">
+    Header always set Access-Control-Allow-Origin "*"
+    Header always set Access-Control-Allow-Methods "GET, OPTIONS"
+    Header always set Access-Control-Allow-Headers "Content-Type"
+</FilesMatch>
+
+<IfModule mod_headers.c>
+    # RFC 8288 Web Linking — agent discovery
+    Header always set Link "</llms.txt>; rel=\"describedby\", </.well-known/api-catalog>; rel=\"api-catalog\", </.well-known/mcp/server-card.json>; rel=\"service-desc\" type=\"application/json\", </.well-known/security.txt>; rel=\"security.txt\", </sitemap.xml>; rel=\"sitemap\""
+
+    # Vary: Accept so HTTP caches serve the right format per client type
+    Header always set Vary "Accept"
+
+    # Correct Content-Type for markdown responses (overrides mod_mime if needed)
+    Header always set Content-Type "text/markdown; charset=utf-8" env=SERVE_MARKDOWN
+</IfModule>
+
+# ─── Кэширование ─────────────────────────────────────────────────────────────
+# CSS и JS отдаются с хэшем содержимого в имени (Hugo fingerprint), поэтому их
+# можно кэшировать навсегда: при изменении меняется имя файла. Без этих
+# заголовков хэш в имени не даёт ничего.
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType font/woff2               "access plus 1 year"
+    ExpiresByType image/webp               "access plus 6 months"
+    ExpiresByType image/jpeg               "access plus 6 months"
+    ExpiresByType image/png                "access plus 6 months"
+    ExpiresByType image/svg+xml            "access plus 6 months"
+    # HTML и машиночитаемые файлы должны обновляться сразу
+    ExpiresByType text/html                "access plus 0 seconds"
+    ExpiresByType text/plain               "access plus 0 seconds"
+    ExpiresByType text/markdown            "access plus 0 seconds"
+</IfModule>
+
+<IfModule mod_headers.c>
+    # Файлы с хэшем содержимого в имени — immutable
+    <FilesMatch "\.(min\.[0-9a-f]{64}|[0-9a-f]{64})\.(css|js)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+    <FilesMatch "\.woff2$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+        Header set Access-Control-Allow-Origin "*"
+    </FilesMatch>
+    # llms.txt и markdown-версии — всегда свежие, их читают агенты
+    <FilesMatch "^llms\.txt$|\.md$">
+        Header set Cache-Control "public, max-age=0, must-revalidate"
+    </FilesMatch>
+</IfModule>
