@@ -110,8 +110,5 @@ User-agent: omgilibot
 Allow: /
 
 Sitemap: https://webvam.cz/sitemap.xml
-
-# Machine-readable summary, UTF-8
-# llms.txt [ru]: https://webvam.cz/llms.txt
 # Any page is also available as clean markdown: send `Accept: text/markdown`
 # or append `index.md` to the URL.
