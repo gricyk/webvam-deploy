@@ -18,6 +18,29 @@ AddCharset utf-8 .md
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
+    # ─── Режим обслуживания ──────────────────────────────────────────────────
+    # Включён 20 сентября 2026. Снимается удалением этого блока и блока
+    # ErrorDocument/Retry-After сразу под ним — больше ничего трогать не надо.
+    #
+    # Весь сайт отвечает 503 с заглушкой /maintenance.html. Именно 503, а не
+    # 404 и не 200 с текстом: поисковики читают его как «временно недоступен»,
+    # страницы из индекса не выпадают, а Retry-After говорит, когда вернуться.
+    #
+    # Исключения: сама заглушка (иначе ErrorDocument зациклится), /fonts/ и
+    # фавиконка — без них заглушка отрисуется системным шрифтом.
+    #
+    # Обход для своих: открыть https://webvam.cz/?key=29cd02e18820024f
+    # Ставится cookie на сутки, и дальше боевой сайт виден целиком.
+    RewriteCond %{QUERY_STRING} (^|&)key=29cd02e18820024f($|&)
+    RewriteRule ^ - [CO=wv_bypass:29cd02e18820024f:webvam.cz:1440:/]
+
+    RewriteCond %{HTTP_COOKIE} !wv_bypass=29cd02e18820024f
+    RewriteCond %{QUERY_STRING} !(^|&)key=29cd02e18820024f($|&)
+    RewriteCond %{REQUEST_URI} !^/maintenance\.html$
+    RewriteCond %{REQUEST_URI} !^/fonts/
+    RewriteCond %{REQUEST_URI} !^/favicon\.svg$
+    RewriteRule ^ - [R=503,L,E=MAINT:1]
+
     # ─── Одна языковая версия (сентябрь 2026) ────────────────────────────────
     # Публикуется только русская, и она переехала из /ru/ в корень.
     # Правила стоят перед согласованием markdown: сначала приводим URL
@@ -57,6 +80,19 @@ AddCharset utf-8 .md
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}/index.md -f
     RewriteRule ^([^.]+[^/])$ $1/index.md [L,E=SERVE_MARKDOWN:1]
+</IfModule>
+
+# ─── Режим обслуживания: тело ответа и заголовки ─────────────────────────────
+# Снимается вместе с блоком выше.
+ErrorDocument 503 /maintenance.html
+<IfModule mod_headers.c>
+    # MAINT ставит RewriteRule; после внутреннего перехода на ErrorDocument
+    # переменная получает префикс REDIRECT_, поэтому проверяем оба имени.
+    Header always set Retry-After "3600" env=MAINT
+    Header always set Retry-After "3600" env=REDIRECT_MAINT
+    # Заглушку нельзя отдавать из кэша: сайт вернётся раньше, чем истечёт TTL.
+    Header always set Cache-Control "no-store" env=MAINT
+    Header always set Cache-Control "no-store" env=REDIRECT_MAINT
 </IfModule>
 
 # Correct Content-Type for extensionless api-catalog and typed OpenAPI file
